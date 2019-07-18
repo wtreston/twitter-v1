@@ -1,4 +1,4 @@
-# twitter-V1 (Tréter)
+# twitter-v1 (Tréter V1)
 
 A Python based Twitter monitor which features include:
 
