@@ -234,7 +234,6 @@ def check_mointoring(account_index, API, delay):
         # CHECKING USER BIO URL
         thread.start_new_thread(check_url, (account, user, account_index))
        
-
 def check_if_save():
     global monitoring
     global SAVE
@@ -242,7 +241,6 @@ def check_if_save():
         if SAVE:
             save_monitoring(monitoring)
             SAVE = False
-
 
 def start():
     global monitoring
@@ -271,3 +269,5 @@ while True:
         start()
         RELOAD = False
     pass
+
+
