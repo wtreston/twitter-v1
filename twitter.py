@@ -3,10 +3,6 @@ import _thread as thread
 import tweepy
 import time
 from discord_webhook import DiscordWebhook, DiscordEmbed
-# 
-#  , "718857559403270144": ["The fastest AIO bot. Inquiries: info@cybersole.io", "https://cybersole.io/", 1148564371594973184]s
-# "1000946599969910784": ["Staff at @PeachyPings", "http://wtrstn.dev", 1148478097659965440],
-# "718857559403270144": ["The fastest AIO bot. Inquiries: info@cybersole.io", "https://cybersole.io/", 1148967745792483328]
 
 def load_monitoring(as_dict = False):
     with open('monitoring.json', 'r') as file:
@@ -23,7 +19,7 @@ def load_monitoring(as_dict = False):
 RELOAD = True
 monitoring = load_monitoring()
 SAVE = False
-DISCORD_URL = "https://discordapp.com/api/webhooks/598568715654660227/kG74ChXnGVxiQ_jGheGmu6b_vUZAPJ1hVkor_cJF2Zvh3zsplOFSqj3ns3GYwLZor3S3"
+DISCORD_URL = ""
 
 def twitter_login(a,b,c,d):
     auth = tweepy.OAuthHandler(a, b)
